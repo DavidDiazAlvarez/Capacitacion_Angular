@@ -1,0 +1,432 @@
+/*Pagina*/
+        
+.Pagina {
+    width: 1100px;
+    height: 100%;
+    background-color: lemonchiffon;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+    
+header {
+    background-color: darkorange;
+    padding-top: 5rem;
+    position: relative;
+    border-bottom: solid 2px black;
+}
+
+/*MENU*/
+    
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+    
+nav li {
+    float: right;
+    background-color: peachpuff;
+    border-right: solid 1px black;
+    height: 3em;
+}
+    
+nav a {
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+    
+.menu {
+    padding: 10px;
+    text-align: right;
+}
+
+.menu-noticias {
+    width: 25em;
+    padding: 10px;
+    text-align: right;
+}
+
+/*FOTO DE SUPER WEB*/
+    
+.logo {
+    display: block;
+    position: absolute;
+    left: 150px;
+    width: 387px;
+    height: 270px;
+    top: 10px;
+    background: url("../img/logo.png") no-repeat;
+    text-indent: -90000px;
+}
+
+/*BUSCADOR*/
+    
+.buscador{
+    display:flex;
+    flex-direction: row;
+    border-width: 1px;
+    margin-left: 800px;
+    padding: 5px;
+    display: flex;
+}
+    
+.buscar{
+    border-radius: 5px 0px 0px 5px;
+    border-width: 1px;
+    height: 25px;
+    background-color: lemonchiffon;
+    display: flex;
+}
+
+::placeholder {
+    margin-left: 2em;
+    font-style: italic;
+}
+
+/*LUPA*/
+    
+.lupa {
+    background-image: url('../img/lupa.png');
+    height: 25px;
+    width: 25px;
+    background-color: rgb(223, 220, 195);
+    background-repeat: no-repeat;
+}
+    
+/*PARA TITULOS*/
+    
+.Formulario {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 6em;
+    margin-left: 5em;
+}
+
+.centrado {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Articulo*/
+
+.principal{
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.im-principal {
+    margin-left: 5px;
+}
+
+.articulo1 {
+    width: 650px;
+}
+
+.linea {
+    width: auto;
+    border-bottom: solid 1px black;
+}
+
+.titulo{
+	font-family: "Arial Black";
+    font-size: 40px;
+    margin-left: 10px;
+}
+.subtitulo{
+	font-family: Arial;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.txt-fecha{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.txt-articulo{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/*Opinion*/
+
+.opinion {
+    padding-top: 2rem;
+    width: 650px;
+}
+
+.Noticia{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.noticias{
+    padding-top: 5px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.txt-superpuesto{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 88px;
+    margin-left: -10px;
+    color: white;
+    background-color: rgba(227,230,228,0.5);
+    font-weight: bold;
+}
+
+/*Noticia lateral*/
+
+.h-lat {
+    width: 100%;
+	line-height: 40px;
+	background-color: darkorange;	
+	border-radius: 2px 2px 2px 2px;
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+    display: flex;
+    padding-left: 10px
+}
+
+.Lateral{
+	width: auto;
+	font-family: Arial;	
+	border: 1px solid darkorange;
+	margin-bottom: 25px;
+}
+
+.art_dch {
+    margin-left: 2%;
+    padding-top: 2rem;
+}
+
+.txt-lat{
+	display:flex;
+	flex-direction: row;
+}
+
+.img-lateral{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.txt_der{
+	margin-left: 10px;
+	font-size: 12px;
+	display: flex;
+	text-align: left;
+	flex-direction: row;
+	padding: 10px;
+}
+
+/*DIV DE DATOS PERSONALES*/
+    
+.datpersonales {
+    margin-left: 15em;
+    margin-right: 15em;
+    width: auto;
+    border-bottom: solid 2px darkorange;
+}
+
+label {
+    display: block;
+    margin-right: .1em;
+    margin-top: 0.5em;
+    text-align: left;
+}
+
+label>span {
+    text-align: center;
+    display: inline-block;
+    width: 6em;
+}
+
+.dato {
+    border: solid 2px darkorange;
+    width: 35em;
+}
+    
+.grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+    
+#telefono {
+    width: 15em;
+}
+    
+.email {
+    width: 2.8em;
+    margin-left: 1em;
+}
+    
+#email {
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+/*DIV DE AFICIONES*/
+    
+.dataficiones {
+    margin-left: 15em;
+    margin-right: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 2px darkorange;
+    width: auto;
+}
+    
+#box {
+    padding-right: 5em;
+}      
+    
+select {
+    border: solid 2px darkorange;
+    width: 12em;
+    margin-bottom: 1em;
+}
+    
+.opcion {
+    width: 2em;
+    margin-right: 2em;
+}
+    
+/*PARA EL TEXTAREA*/
+        
+.comentario {
+    margin-left: 14em;
+}  
+    
+textarea {
+    border: solid 2px darkorange;
+    overflow: auto;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+    
+/*PARA EL BOTON ENVIAR*/
+        
+input[type=submit] {
+    background-color: darkorange;
+    color: white;
+    width: 8em;
+    margin-top: 1em;
+    margin-left: 20em;
+    margin-bottom: 1em;
+}
+    
+/*FOOTER*/
+        
+footer {
+    width: 100%;
+    background-color: #7e7c7f;
+    color: white;
+}
+    
+#menufooter {
+    text-decoration: underline;
+    margin-left: 40em;
+}
+    
+#menufooter li {
+    display: inline;
+    margin-right: 2em;
+}
+    
+#menufooter a {
+    color: white;
+}
+    
+.pie-final {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-left: 2em;
+    color: white;
+}
+    
+address {
+    margin-bottom: 1em;
+    margin-left: 2em;
+    text-align: left;
+    color: white;
+}
+/*REDES*/
+    
+#navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+    
+#navlist li {
+    list-style: none;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    display: flex;
+}
+    
+#navlist a {
+    text-indent: 9000px;
+    height: 45px;
+    width: 45px;
+    display: block;
+    overflow: hidden;
+}
+    
+#facebook {
+    left: 0px;
+    width: 45px;
+    background: url("../img/media.png") 0 0;
+}
+    
+#twitter {
+    left: 90px;
+    width: 45px;
+    background: url("../img/media.png") -45px 0;
+}
+    
+#pinterest {
+    left: 135px;
+    width: 45px;
+    background: url("../img/media.png") -90px 0;
+}
+    
+#google {
+    left: 180px;
+    width: 45px;
+    background: url("../img/media.png") -135px 0;
+}    
+    
+#facebook a:hover {
+    background: url("../img/media.png") 0 -45px;
+}
+    
+#twitter a:hover {
+    background: url("../img/media.png") -45px -45px;
+}
+    
+#pinterest a:hover {
+    background: url("../img/media.png") -90px -45px;
+}
+    
+#google a:hover {
+    background: url("../img/media.png") -135px -45px;
+}

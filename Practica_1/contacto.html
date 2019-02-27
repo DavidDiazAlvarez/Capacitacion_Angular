@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacto</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Formulario Super Web">
+	<meta name="keywords" content="Contacto,Super WEB">
+    <meta name="author" content="David Díaz Álvarez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/super.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="Pagina">
+        <header>
+            <a href="index.html" class="logo">Super Web!</a> 
+            <div class="buscador">
+                <input class="buscar" type="search" placeholder="Buscar">
+                <button class="lupa" type="submit"></button>
+            </div>
+            <nav>
+                <ul>
+                    <li class="menu-noticias"><a href="#">Noticias</a></li>
+                    <li class="menu"><a href="#">Opinión</a></li>
+                    <li class="menu"><a href="#">Formación</a></li>
+                    <li class="menu"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <h1 class="Formulario">Formulario de contacto</h1>
+            <h2 class="centrado">Datos Personales</h2>
+            <form>
+                <section class="datpersonales">
+                    <label for="nombre">
+                        <span>Nombre</span>
+                        <input class="dato" type="text" id="nombre"/>
+                    </label>
+                    <label for="apellidos">
+                        <span>Apellidos</span>
+                    <input class="dato" type="text" id="apellidos"/>
+                    </label>
+                    <label for="direccion">
+                        <span>Dirección</span>
+                        <input class="dato" type="text" id="direccion"/>
+                    </label>
+                    <div class="grupo">
+                        <label for="telefono">
+                            <span>Teléfono</span>
+                            <input class="dato" type="tel" id="telefono"/>
+                        </label>
+                        <label for="email">
+                            <span class="email">Email</span>
+                            <input class="dato" type="email" id="email"/>
+                        </label>
+                    </div>
+                </section>
+                <h2 class="centrado">Aficiones</h2>
+                <section class="dataficiones">
+                    <div id="box">
+                        <h3>Grupo de Checkboxes</h3>
+                        <label>
+                            <span>Checkbox 1</span>
+                            <input type="checkbox"/>
+                        </label>
+                        <label>
+                            <span>Checkbox 2</span>
+                            <input type="checkbox"/>
+                        </label>
+                        <label>
+                            <span>Checkbox 3</span>
+                            <input type="checkbox"/>
+                        </label>
+                        <label>
+                            <span class="opcion">Opciones</span>
+                            <select>
+                                <option value=""></option>
+                                <option value="1">Opción 1</option>
+                                <option value="1">Opción 2</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>
+                        <h3>Grupo de Radiobuttons</h3>
+                        <label>
+                            <span>Radiobutton1</span>
+                            <input type="radio"/>
+                        </label>
+                        <label>
+                            <span>Radiobutton2</span>
+                            <input type="radio"/>
+                        </label>
+                        <label>
+                            <span>Radiobutton3</span>
+                            <input type="radio"/>
+                        </label>
+                        <label>
+                            <span class="opcion">Opciones</span>
+                            <select>
+                                <option value=""></option>
+                                <option value="1">Opción 1</option>
+                                <option value="1">Opción 2</option>
+                            </select>
+                        </label>
+                    </div>
+                </section>
+                <section class="comentario">
+					<label for="comentario">Comentario</label>
+					<textarea rows="6" cols="80"></textarea>
+					<input type="submit" value="Enviar" />
+				</section>
+            </form>
+        </div>
+		<footer>
+                <p class="pie-final">Super Web es una marca registrada de Super Web Enterprises. Wisconsin Alabama </p>
+                <ul id="menufooter">
+                    <li><a href="#">Mapa Web</a></li>
+                    <li><a href="#">Informacion Legal</a></li>
+                    <li><a href="#">Politica de Cookies</a></li>
+                </ul>
+                <address>Super Web. Calle Jon 23 90210 Valdecardos de Arriba</address>
+                <p class="pie-final">&copy;Super Web 2019</p>
+                <ul id="navlist">
+                    <li id="facebook"><a href="https://www.facebook.com/">facebook</a></li>
+                    <li id="twitter"><a href="https://twitter.com/">twitter</a></li>
+                    <li id="pinterest"><a href="https://www.pinterest.com/">pinterest</a></li>
+                    <li id="google"><a href="https://plus.google.com/discover">google</a></li>
+                </ul>
+        </footer>
+    </div>
+</body>
+</html>
