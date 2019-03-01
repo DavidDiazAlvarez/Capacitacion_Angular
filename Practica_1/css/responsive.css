@@ -1,0 +1,488 @@
+/* para Iphone X */
+
+@media screen and (max-width:376px) {
+    .Pagina {
+        width: 371px;
+        height: 50%;
+        background-color: lemonchiffon;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: darkorange;
+        padding-top: 0.1em;
+        position: relative;
+        border-bottom: solid 0.0625em black;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #menu375{
+        display: block;
+        text-align: center;
+        font-size: 0.7em;
+        width: 5em;
+        margin: 1em;
+    }
+
+    #menu375:hover {
+        background-color: lemonchiffon;
+    }
+
+    #menu375:hover .menu-oculto {
+        display: block;
+    }
+    
+    .menu-oculto {
+        display: none;
+        text-align: center;
+        font-size: 0.7em;
+        width: 5em;
+        margin: 1px;
+    }
+         
+    .menu-oculto ul { 
+        list-style-type: none;border: 0;
+    }
+        
+    .menu-oculto ul li.nivel1 { 
+        width: 5em;
+    }
+
+    .menu-oculto ul li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        background-color: darkorange;
+        border: solid 1px lemonchiffon;
+        border-top: none;
+        padding: 1px;
+        position: relative;
+        width: 5em;
+        margin: 6px;
+    }
+
+    .menu-oculto ul li:hover {
+        position: relative;
+        background-color: lemonchiffon;
+        color: black;
+        }
+        
+    .menu-oculto ul li a:hover, .menu-oculto ul li:hover a.nivel1 {
+        background-color: darkorange;
+        color: black;
+        position: relative;
+    }
+    
+    .menu-oculto ul li a.nivel1 {
+        display: block!important;
+        display: none;
+        position: relative;
+    }
+    
+    .menu-oculto ul li ul {
+        display: none;
+    }
+
+    .menu-oculto ul li a:hover ul, .menu-oculto ul li:hover ul {
+        display: block;
+        position: absolute;
+        left: 161px;
+        top:-1px!important;
+        top: -31px;
+    }
+    
+    .menu-oculto ul li ul li a {
+        width: 150px;
+        background-color: darkorange;
+        color: black;
+    }
+
+    .menu-oculto ul li ul li a:hover {
+        position: relative;
+        background-color: darkorange;
+        color: white;
+    }
+        
+    table.falsa {
+        border-collapse:collapse;
+        border:0px;
+        float: left;
+        position: relative;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .cabe{
+        padding-top: 1em;
+	    display: flex;
+	    flex-direction: row;
+    }
+
+    .TituloWeb {
+        display: block;
+        font-family: "Arial Black";
+        font-size: 1em;
+        color: Black;
+        text-decoration:none;
+        margin-left: 2px;
+    }
+
+    .buscador{
+        display:flex;
+        flex-direction: row;
+        border-width: 0.063em;
+        margin-left: 1em;
+        padding: 0.313em;
+        display: flex;
+    }
+        
+    .buscar{
+        border-radius: 0.313em 0em 0em 0.313em;
+        border-width: 0.063em;
+        width: 10em;
+        height: 1.563em;
+        background-color: lemonchiffon;
+        display: flex;
+    }
+    
+    ::placeholder {
+        margin-left: 2em;
+        font-style: italic;
+    }
+
+    .lupa {
+        background-image: url('../img/lupa.png');
+        height: 1.563em;
+        width: 1.563em;
+        background-color: rgb(223, 220, 195);
+        background-repeat: no-repeat;
+    }
+
+    .Formulario {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    
+    .centrado {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .principal{
+        padding-top: 1em;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .im-principal {
+        margin-left: 2px;
+    }
+    .timg {
+        width: 367px;
+    }
+
+    .articulo1 {
+        width: 371px;
+    }
+    
+    .linea {
+        width: auto;
+        border-bottom: solid 0.0315em black;
+    }
+    
+    .titulo{
+        font-family: "Arial Black";
+        font-size: 1.25em;
+        margin-left: 0.3125em;
+    }
+    .subtitulo{
+        font-family: Arial;
+        font-size: 0.625em;
+        margin-left: 0.3125em;
+    }
+
+    .txt-fecha{
+        font-size: 0.4375em;
+        margin-left: 0.3125em;
+    }
+    
+    .txt-articulo{
+        font-size: 0.4375em;
+        margin-left: 0.3125em;
+    }
+
+    .opinion {
+        padding-top: 1em;
+        width: 371px;
+    }
+    
+    .Noticia{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-right: 0.3125em;
+    }
+    
+    .noticias{
+        padding-top: 0.1565em;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-left: 0.375em;
+        width: 367px;
+    }
+
+    .txt-superpuesto{
+        position: absolute;
+        top: 0.3125em;
+        left: 0.3125em;
+        margin-top: 2.75em;
+        margin-left: -0.3125em;
+        color: white;
+        background-color: rgba(227,230,228,0.5);
+        font-weight: bold;
+    }
+
+    .h-lat {
+        width: 94%;
+        line-height: 1.25em;
+        background-color: darkorange;	
+        border-radius: 0.0625em 0.0625em 0.0625em 0.0625em;
+        color: white;
+        font-weight: bold;
+        font-family: Arial;
+        display: flex;
+        padding-left: 0.3125em
+    }
+    
+    .Lateral{
+        width: auto;
+        font-family: Arial;	
+        border: 0.0315em solid darkorange;
+        margin-bottom: 0.7815em;
+    }
+    
+    .art_dch {
+        display: none;
+    }
+
+    .art_inf{
+        display: block;
+        padding-top: 1em;
+        width: 367px;
+    }
+
+    .img-lateral{
+        margin-left: 0.625em;
+        padding: 0.625em;
+    }
+    
+    .txt_der{
+        margin-left: 0.625em;
+        font-size: 0.750em;
+        display: flex;
+        text-align: left;
+        flex-direction: row;
+        padding: 0.625em;
+    }
+
+    .datpersonales {
+        margin-left: 2.5em;
+        width: 291px;
+        border-bottom: solid 0.125em darkorange;
+    }
+    
+    label {
+        display: block;
+        margin-right: .1em;
+        margin-top: 0.5em;
+    }
+    
+    label>span {
+        display: inline-block;
+        width: 7em;
+    }
+   
+    .dato {
+        border: solid 0.125em darkorange;
+        width: 291px;
+    }
+
+    #telefono {
+        width: 145.5px;
+    }
+        
+    .email {
+        width: 23px;
+        margin-left: 2px;
+    }
+        
+    #email {
+        width: 145.5px;
+        margin-bottom: 1em;
+    }
+
+    .dataficiones {
+        display: none;
+    }
+
+    .dataficiones_res {
+        display: block;
+        margin-left: 2.5em;
+        width: 291px;
+        border-bottom: solid 0.125em darkorange;
+        justify-content: center;
+    }
+        
+    #box {
+        padding-right: 5em;
+        width: 371px;
+        text-align: center;
+    }      
+        
+    select {
+        border: solid 0.125em darkorange;
+        width: 12em;
+        margin-bottom: 1em;
+    }
+        
+    .opcion {
+        width: 2em;
+        margin-right: 2em;
+    }
+
+    .comentario {
+        display: none;
+    }
+
+    .comentario_res {
+        display: block;
+        margin-left: 1em;
+        justify-content: center;
+        width: 371px;
+    }  
+        
+    textarea {
+        border: solid 0.125em darkorange;
+        overflow: auto;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    input[type=submit] {
+        background-color: darkorange;
+        color: white;
+        width: 8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 8em;
+    }
+
+    footer {
+        width: 371px;
+        background-color: #7e7c7f;
+        color: white;
+    }
+        
+    #menufooter {
+        text-decoration: underline;
+        margin-left: 50px;
+    }
+        
+    #menufooter li {
+        display: inline;
+        margin-left: 2px;
+        font-size: 10px
+    }
+
+    .pie-final {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        color: white;
+        font-size: 15px
+    }
+        
+    address {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        text-align: left;
+        color: white;
+        font-size: 15px
+    }
+
+    #navlist {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 1em;
+    }
+        
+    #navlist li {
+        list-style: none;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+        display: flex;
+    }
+        
+    #navlist a {
+        text-indent: 562.5em;
+        height: 2.813em;
+        width: 2.813em;
+        display: block;
+        overflow: hidden;
+    }
+        
+    #facebook {
+        left: 0em;
+        width: 2.813em;
+        background: url("../img/media.png") 0 0;
+    }
+        
+    #twitter {
+        left: 5.625em;
+        width: 2.813em;
+        background: url("../img/media.png") -2.813em 0;
+    }
+        
+    #pinterest {
+        left: 8.438em;
+        width: 2.813em;
+        background: url("../img/media.png") -5.625em 0;
+    }
+        
+    #google {
+        left: 11.250em;
+        width: 2.813em;
+        background: url("../img/media.png") -8.438em 0;
+    }    
+        
+    #facebook a:hover {
+        background: url("../img/media.png") 0 -2.813em;
+    }
+        
+    #twitter a:hover {
+        background: url("../img/media.png") -2.813em -2.813em;
+    }
+        
+    #pinterest a:hover {
+        background: url("../img/media.png") -5.625em -2.813em;
+    }
+        
+    #google a:hover {
+        background: url("../img/media.png") -8.438em -2.813em;
+    }
+}
